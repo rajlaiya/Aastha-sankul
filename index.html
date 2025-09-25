@@ -1,0 +1,2295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Aastha Sankul is a vibrant school nurturing minds and inspiring futures with strong academics, caring faculty, and a joyful learning environment. Apply for 2025-26 admissions."
+    />
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="language" content="en, hi, gu" />
+    <link rel="canonical" href="/" />
+    <!-- TODO: Replace canonical with your absolute production URL, e.g., https://www.example.com/ -->
+    <title>Aastha Sankul — Nurturing minds, inspiring futures</title>
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Aastha Sankul — Nurturing minds, inspiring futures"
+    />
+    <meta
+      property="og:description"
+      content="A vibrant school with strong academics, caring faculty, and joyful learning. Admissions open for 2025–26."
+    />
+    <meta property="og:url" content="/" />
+    <meta property="og:site_name" content="Aastha Sankul" />
+    <meta property="og:locale" content="en_IN" />
+    <meta property="og:locale:alternate" content="hi_IN" />
+    <meta property="og:locale:alternate" content="gu_IN" />
+    <meta
+      property="og:image"
+      content="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=1200&auto=format&fit=crop"
+    />
+    <meta property="og:image:alt" content="Aastha Sankul campus background" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Aastha Sankul — Nurturing minds, inspiring futures"
+    />
+    <meta
+      name="twitter:description"
+      content="A vibrant school with strong academics, caring faculty, and joyful learning. Admissions open for 2025–26."
+    />
+    <meta
+      name="twitter:image"
+      content="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=1200&auto=format&fit=crop"
+    />
+
+    <!-- Structured Data: School -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "School",
+        "name": "Aastha Sankul",
+        "url": "/",
+        "description": "A vibrant school nurturing minds and inspiring futures with strong academics and caring faculty.",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQCukOF5nFeWVVHNQSGF7jo1SMUZ6UkASYuw&s",
+        "telephone": "+91 98765 43210",
+        "areaServed": "IN",
+        "sameAs": []
+      }
+    </script>
+
+    <!-- Google Fonts: Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome (jsDelivr) -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css"
+      crossorigin="anonymous"
+    />
+
+    <!-- Locomotive Scroll CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css"
+    />
+
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- App CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Language fonts for preloader (Devanagari & Gujarati) -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Gujarati:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      // Lock scroll as early as possible to avoid initial flicker
+      document.documentElement.classList.add("preloading");
+    </script>
+    <style>
+      /* Preloader overlay */
+      html.preloading,
+      body.preloading {
+        overflow: hidden !important;
+        height: 100% !important;
+      }
+
+      #preloader {
+        position: fixed;
+        inset: 0;
+        background: #ffffff;
+        display: grid;
+        place-items: center;
+        z-index: 99999;
+        transition: opacity 600ms ease, visibility 600ms ease;
+      }
+
+      #preloader.is-hidden {
+        opacity: 0;
+        visibility: hidden;
+      }
+
+      .preloader-inner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+      }
+
+      .preloader-text {
+        font-family: "Poppins", system-ui, -apple-system, Segoe UI, Roboto,
+          Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+        font-size: clamp(24px, 4vw, 42px);
+        font-weight: 600;
+        letter-spacing: 0.4px;
+        color: #111;
+        opacity: 0;
+        transition: opacity 900ms ease;
+        will-change: opacity;
+        text-align: center;
+        padding: 0 1rem;
+      }
+
+      .preloader-text.visible {
+        opacity: 1;
+      }
+    </style>
+    <noscript>
+      <style>
+        /* If JS is disabled, hide preloader and allow scroll */
+        #preloader {
+          display: none !important;
+        }
+        html,
+        body {
+          overflow: auto !important;
+          height: auto !important;
+        }
+      </style>
+    </noscript>
+  </head>
+  <body>
+    <!-- Preloader Overlay -->
+    <div id="preloader" role="status" aria-live="polite" aria-label="Loading">
+      <div class="preloader-inner">
+        <div
+          id="preloader-text"
+          class="preloader-text"
+          lang="sa"
+          aria-label="जय श्री कृष्ण"
+        >
+          जय श्री कृष्ण
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // Preloader cycling and teardown
+      (function initPreloader() {
+        const greetings = [
+          { text: "जय श्री कृष्ण", lang: "sa" }, // Devanagari
+          { text: "Jay Shree Krishna", lang: "en" }, // English
+          { text: "જય શ્રી કૃષ્ણ", lang: "gu" }, // Gujarati
+        ];
+
+        const preloader = document.getElementById("preloader");
+        const textEl = document.getElementById("preloader-text");
+        if (!preloader || !textEl) return;
+
+        let idx = 0;
+        const showDuration = 3000; // time text stays fully visible (~3s)
+        const fadeDuration = 900; // must match CSS transition
+        const cycleGap = 100; // minimal delay between hide->show
+
+        function showCurrent() {
+          const g = greetings[idx % greetings.length];
+          textEl.textContent = g.text;
+          textEl.setAttribute("lang", g.lang);
+          textEl.setAttribute("aria-label", g.text);
+          // font fallback tweak based on script
+          if (g.lang === "gu") {
+            textEl.style.fontFamily =
+              "'Noto Sans Gujarati', 'Poppins', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, 'Apple Color Emoji', 'Segoe UI Emoji'";
+          } else if (g.lang === "sa") {
+            textEl.style.fontFamily =
+              "'Noto Sans Devanagari', 'Poppins', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, 'Apple Color Emoji', 'Segoe UI Emoji'";
+          } else {
+            textEl.style.fontFamily =
+              "'Poppins', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, 'Apple Color Emoji', 'Segoe UI Emoji'";
+          }
+          requestAnimationFrame(() => textEl.classList.add("visible"));
+        }
+
+        function hideCurrent() {
+          textEl.classList.remove("visible");
+        }
+
+        // Kick off first greeting as soon as possible
+        if (document.readyState === "loading") {
+          document.addEventListener("DOMContentLoaded", showCurrent, {
+            once: true,
+          });
+        } else {
+          showCurrent();
+        }
+
+        // Cycle greetings on an interval while the page loads
+        const cycleTimer = setInterval(() => {
+          hideCurrent();
+          setTimeout(() => {
+            idx = (idx + 1) % greetings.length;
+            showCurrent();
+          }, fadeDuration + cycleGap);
+        }, showDuration + fadeDuration * 2 + cycleGap);
+
+        function finishPreloader() {
+          clearInterval(cycleTimer);
+          // Ensure text is visible before fading out the overlay
+          textEl.classList.add("visible");
+          // Fade out the overlay
+          preloader.classList.add("is-hidden");
+          // Allow page interactions after fade completes
+          setTimeout(() => {
+            document.documentElement.classList.remove("preloading");
+            document.body?.classList.remove("preloading");
+            // Remove from DOM to avoid tab focus
+            preloader.remove();
+          }, 650);
+        }
+
+        // When all resources are loaded
+        window.addEventListener("load", () => {
+          // delay a touch so last fade feels natural
+          setTimeout(finishPreloader, 400);
+        });
+      })();
+    </script>
+
+    <!-- Sticky Navigation (outside locomotive container for fixed positioning) -->
+    <nav class="site-nav" aria-label="Primary">
+      <div class="nav-inner container">
+        <a href="#about" class="brand" data-scroll-to>
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQCukOF5nFeWVVHNQSGF7jo1SMUZ6UkASYuw&s"
+            alt="Aastha School logo"
+            class="logo"
+          />
+          <span class="brand-name"
+            ><span data-i18n="schoolName">Aastha Sankul</span></span
+          >
+        </a>
+
+        <button
+          class="nav-toggle"
+          aria-expanded="false"
+          aria-controls="nav-menu"
+          aria-label="Toggle menu"
+        >
+          <i class="fa-solid fa-bars icon-bars" aria-hidden="true"></i>
+          <i class="fa-solid fa-xmark icon-close" aria-hidden="true"></i>
+        </button>
+
+        <ul id="nav-menu" class="nav-links">
+          <li><a href="#about" data-scroll-to data-i18n="about">About</a></li>
+          <li class="has-dropdown">
+            <button
+              class="dropdown-toggle"
+              aria-haspopup="true"
+              aria-expanded="false"
+              aria-controls="academics-menu"
+            >
+              <span data-i18n="academics">Academics</span>
+              <i class="fa-solid fa-caret-down" aria-hidden="true"></i>
+            </button>
+            <ul id="academics-menu" class="dropdown">
+              <li>
+                <a
+                  href="#academics-overview"
+                  data-scroll-to
+                  data-i18n="overview"
+                  >Overview</a
+                >
+              </li>
+              <li>
+                <a href="#curriculum" data-scroll-to data-i18n="curriculum"
+                  >Curriculum</a
+                >
+              </li>
+              <li>
+                <a href="#faculty" data-scroll-to data-i18n="faculty"
+                  >Faculty</a
+                >
+              </li>
+              <li>
+                <a href="#timetable" data-scroll-to data-i18n="timetable"
+                  >Timetable</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#admissions" data-scroll-to data-i18n="admissions"
+              >Admissions</a
+            >
+          </li>
+          <li>
+            <a href="#gallery" data-scroll-to data-i18n="gallery">Gallery</a>
+          </li>
+          <li>
+            <a href="#events" data-scroll-to data-i18n="events">Events</a>
+          </li>
+          <li>
+            <a href="#contact" data-scroll-to data-i18n="contact">Contact</a>
+          </li>
+        </ul>
+
+        <button class="theme-toggle" aria-label="Toggle theme">
+          <i class="fa-solid fa-moon icon-moon" aria-hidden="true"></i>
+          <i class="fa-solid fa-sun icon-sun" aria-hidden="true"></i>
+        </button>
+        <!-- Language Toggle Dropdown -->
+        <div class="lang-toggle">
+          <select id="language-select" aria-label="Select language">
+            <option value="en" selected>🇬🇧 English</option>
+            <option value="hi">🇮🇳 हिंदी</option>
+            <option value="gu">🇮🇳 ગુજરાતી</option>
+          </select>
+        </div>
+      </div>
+    </nav>
+    <!-- Scroll container -->
+    <div id="scroll-container" data-scroll-container>
+      <header class="site-header hero" data-scroll-section>
+        <div class="hero-media" aria-hidden="true">
+          <!-- Background image; replace src with your campus photo or use a video tag -->
+          <img
+            src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=1920&auto=format&fit=crop"
+            alt="Campus background"
+          />
+          <!-- Example video (optional):
+          <video src="/assets/campus.mp4" autoplay muted loop playsinline></video>
+          -->
+          <div class="hero-overlay"></div>
+        </div>
+        <div class="container hero-content">
+          <h1
+            data-scroll
+            data-scroll-class="in"
+            data-scroll-repeat="true"
+            class="reveal-up"
+          >
+            <span data-i18n="schoolName">Aastha Sankul</span>
+          </h1>
+          <p
+            data-scroll
+            data-scroll-class="in"
+            data-scroll-repeat="true"
+            class="reveal-up delay-1"
+            data-i18n="tagline"
+          >
+            Nurturing minds, inspiring futures.
+          </p>
+          <div
+            class="hero-actions reveal-up delay-2"
+            data-scroll
+            data-scroll-class="in"
+            data-scroll-repeat="true"
+          >
+            <a class="cta primary" href="#admissions" data-scroll-to>
+              <i class="fa-solid fa-file-pen" aria-hidden="true"></i>
+              <span data-i18n="applyNow">Apply Now</span>
+            </a>
+            <a class="cta ghost" href="#about" data-scroll-to>
+              <span data-i18n="learnMore">Learn More</span>
+              <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+            </a>
+          </div>
+          <!-- Hindi and Gujarati Google Fonts -->
+          <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;700&display=swap"
+            rel="stylesheet"
+          />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Sans+Gujarati:wght@400;700&display=swap"
+            rel="stylesheet"
+          />
+          <script>
+            // Font switching for language
+            function setLangFont(lang) {
+              const html = document.documentElement;
+              if (lang === "hi") {
+                html.style.fontFamily =
+                  "'Noto Sans Devanagari', 'Poppins', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, 'Apple Color Emoji', 'Segoe UI Emoji'";
+              } else if (lang === "gu") {
+                html.style.fontFamily =
+                  "'Noto Sans Gujarati', 'Poppins', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, 'Apple Color Emoji', 'Segoe UI Emoji'";
+              } else {
+                html.style.fontFamily =
+                  "'Poppins', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, 'Apple Color Emoji', 'Segoe UI Emoji'";
+              }
+            }
+          </script>
+        </div>
+      </header>
+
+      <!-- Quick info strip -->
+      <section class="quick-info" data-scroll-section>
+        <div class="container info-grid">
+          <div class="info-item">
+            <i class="fa-solid fa-bullhorn" aria-hidden="true"></i>
+            <span>
+              <strong data-i18n="admissionsOpen">Admissions Open</strong>
+              — <span data-i18n="applyForYear">Apply for 2025–26</span>
+            </span>
+            <a href="#admissions" data-scroll-to class="info-link">
+              <span data-i18n="start">Start</span>
+              <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+            </a>
+          </div>
+          <div class="info-item">
+            <i class="fa-solid fa-phone" aria-hidden="true"></i>
+            <span
+              ><strong data-i18n="hotline">Hotline:</strong> +91 98765
+              43210</span
+            >
+            <a href="#contact" data-scroll-to class="info-link"
+              ><span data-i18n="callUs">Call us</span></a
+            >
+          </div>
+          <div class="info-item">
+            <i class="fa-solid fa-newspaper" aria-hidden="true"></i>
+            <span
+              ><strong data-i18n="noticeBoard">Notice Board:</strong>
+              <span data-i18n="latestUpdates">Latest updates</span></span
+            >
+            <a href="#events" data-scroll-to class="info-link"
+              ><span data-i18n="view">View</span></a
+            >
+          </div>
+        </div>
+      </section>
+
+      <main>
+        <!-- About -->
+        <section id="about" class="panel alt" data-scroll-section>
+          <div class="container about-grid">
+            <div
+              class="about-media"
+              data-scroll
+              data-scroll-speed="2"
+              aria-hidden="true"
+            >
+              <img
+                src="https://lh6.googleusercontent.com/-hNZOGDMXSHY/V_uSiFR205I/AAAAAAAAAL8/F2h5NWqGMcAh9TqajH-bhGgPugiSjFrDACJkC/photo.jpg"
+                alt="Aastha School Building"
+              />
+            </div>
+            <div class="about-content">
+              <h2
+                class="section-title reveal-up"
+                data-scroll
+                data-scroll-class="in"
+                data-scroll-repeat="true"
+              >
+                <span data-i18n="aboutUs">About Us</span>
+              </h2>
+
+              <div
+                class="about-block reveal-up delay-1"
+                data-scroll
+                data-scroll-class="in"
+                data-scroll-repeat="true"
+              >
+                <h3 data-i18n="ourMission">Our Mission</h3>
+                <p data-i18n="missionText">
+                  To empower every learner with knowledge, character, and
+                  creativity through inspiring pedagogy and a caring community.
+                </p>
+              </div>
+
+              <div
+                class="about-block reveal-up delay-2"
+                data-scroll
+                data-scroll-class="in"
+                data-scroll-repeat="true"
+              >
+                <h3 data-i18n="ourVision">Our Vision</h3>
+                <p data-i18n="visionText">
+                  To be a benchmark institution that nurtures curious minds and
+                  responsible citizens ready to shape a better world.
+                </p>
+              </div>
+
+              <div
+                class="about-block reveal-up delay-3"
+                data-scroll
+                data-scroll-class="in"
+                data-scroll-repeat="true"
+              >
+                <h3 data-i18n="principalsMessage">Principal’s Message</h3>
+                <p data-i18n="principalMessageText">
+                  At Aastha, learning is joyful and purposeful. We invite you to
+                  explore our vibrant campus and discover a home for lifelong
+                  growth.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Academics Overview -->
+        <section id="academics-overview" class="panel" data-scroll-section>
+          <div class="container">
+            <h2 data-scroll data-scroll-speed="1" data-i18n="academicsOverview">
+              Academics Overview
+            </h2>
+            <p
+              data-scroll
+              data-scroll-speed="1"
+              data-i18n="academicsOverviewText"
+            >
+              A snapshot of programs and standards.
+            </p>
+          </div>
+        </section>
+
+        <!-- Curriculum -->
+        <section id="curriculum" class="panel alt" data-scroll-section>
+          <div class="container">
+            <h2
+              class="reveal-up"
+              data-scroll
+              data-scroll-class="in"
+              data-scroll-repeat="true"
+            >
+              <span data-i18n="curriculum">Curriculum</span>
+            </h2>
+            <div
+              class="tabs"
+              data-scroll
+              data-scroll-class="in"
+              data-scroll-repeat="true"
+            >
+              <div
+                class="tab-list"
+                role="tablist"
+                aria-label="Class wise curriculum"
+              >
+                <button
+                  role="tab"
+                  aria-selected="true"
+                  aria-controls="curr-g1"
+                  id="tab-g1"
+                  class="tab-button"
+                >
+                  <span data-i18n="grade1">Grade 1</span>
+                </button>
+                <button
+                  role="tab"
+                  aria-selected="false"
+                  aria-controls="curr-g5"
+                  id="tab-g5"
+                  class="tab-button"
+                >
+                  <span data-i18n="grade5">Grade 5</span>
+                </button>
+                <button
+                  role="tab"
+                  aria-selected="false"
+                  aria-controls="curr-g10"
+                  id="tab-g10"
+                  class="tab-button"
+                >
+                  <span data-i18n="grade10">Grade 10</span>
+                </button>
+              </div>
+              <div
+                id="curr-g1"
+                role="tabpanel"
+                aria-labelledby="tab-g1"
+                class="tab-panel"
+              >
+                <ul class="curr-list">
+                  <li>English: Phonics, reading, and basic writing</li>
+                  <li>Mathematics: Numbers to 100, addition/subtraction</li>
+                  <li>EVS: My family, neighborhood, and nature</li>
+                  <li>Art & Craft, Music, Physical Education</li>
+                </ul>
+              </div>
+              <div
+                id="curr-g5"
+                role="tabpanel"
+                aria-labelledby="tab-g5"
+                class="tab-panel"
+                hidden
+              >
+                <ul class="curr-list">
+                  <li>English: Grammar and comprehension</li>
+                  <li>Mathematics: Fractions, decimals, basic geometry</li>
+                  <li>Science: Plants, animals, force & work</li>
+                  <li>Social Studies: India—states, culture, civics</li>
+                </ul>
+              </div>
+              <div
+                id="curr-g10"
+                role="tabpanel"
+                aria-labelledby="tab-g10"
+                class="tab-panel"
+                hidden
+              >
+                <ul class="curr-list">
+                  <li>English: Literature and composition</li>
+                  <li>Mathematics: Algebra, trigonometry, statistics</li>
+                  <li>Science: Physics, Chemistry, Biology</li>
+                  <li>Social Science: History, Geography, Civics, Economics</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Faculty -->
+        <section id="faculty" class="panel" data-scroll-section>
+          <div class="container">
+            <h2
+              class="reveal-up"
+              data-scroll
+              data-scroll-class="in"
+              data-scroll-repeat="true"
+            >
+              <span data-i18n="faculty">Faculty</span>
+            </h2>
+
+            <!-- Leadership: Trustee & Principal -->
+            <h3
+              class="reveal-up delay-1"
+              data-scroll
+              data-scroll-class="in"
+              data-scroll-repeat="true"
+            >
+              <span data-i18n="leadership">Leadership</span>
+            </h3>
+            <div class="leadership-grid">
+              <article
+                class="teacher-card reveal-up delay-1"
+                data-scroll
+                data-scroll-class="in"
+                data-scroll-repeat="true"
+              >
+                <img
+                  class="teacher-photo"
+                  src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=400&auto=format&fit=crop"
+                  alt="Mr. Suresh Malhotra"
+                />
+                <div class="teacher-info">
+                  <h3>Mr. Suresh Malhotra</h3>
+                  <p class="subject">Trustee</p>
+                  <p class="meta-line">
+                    <i class="fa-solid fa-user-graduate" aria-hidden="true"></i>
+                    MBA (Education Management)
+                  </p>
+                  <p class="meta-line">
+                    <i class="fa-solid fa-briefcase" aria-hidden="true"></i> 15+
+                    years in school administration
+                  </p>
+                  <a href="mailto:trustee@aastha.edu" class="contact"
+                    ><i class="fa-solid fa-envelope"></i> Contact</a
+                  >
+                </div>
+              </article>
+              <article
+                class="teacher-card reveal-up delay-2"
+                data-scroll
+                data-scroll-class="in"
+                data-scroll-repeat="true"
+              >
+                <img
+                  class="teacher-photo"
+                  src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=400&auto=format&fit=crop"
+                  alt="Dr. Meera Nair"
+                />
+                <div class="teacher-info">
+                  <h3>Dr. Meera Nair</h3>
+                  <p class="subject">Principal</p>
+                  <p class="meta-line">
+                    <i class="fa-solid fa-user-graduate" aria-hidden="true"></i>
+                    Ph.D. (Education), M.Ed.
+                  </p>
+                  <p class="meta-line">
+                    <i class="fa-solid fa-briefcase" aria-hidden="true"></i> 20+
+                    years in education leadership
+                  </p>
+                  <a href="mailto:principal@aastha.edu" class="contact"
+                    ><i class="fa-solid fa-envelope"></i> Contact</a
+                  >
+                </div>
+              </article>
+            </div>
+
+            <!-- Faculty Directory with filters -->
+            <h3
+              class="reveal-up"
+              data-scroll
+              data-scroll-class="in"
+              data-scroll-repeat="true"
+            >
+              <span data-i18n="facultyDirectory">Faculty Directory</span>
+            </h3>
+            <div
+              class="filter-bar reveal-up delay-1"
+              data-scroll
+              data-scroll-class="in"
+              data-scroll-repeat="true"
+            >
+              <button class="tab-button is-active" data-filter="all">
+                <span data-i18n="all">All</span>
+              </button>
+              <button class="tab-button" data-filter="primary">
+                <span data-i18n="primary">Primary (1–5)</span>
+              </button>
+              <button class="tab-button" data-filter="middle">
+                <span data-i18n="middle">Middle (6–8)</span>
+              </button>
+              <button class="tab-button" data-filter="secondary">
+                <span data-i18n="secondary">Secondary (9–10)</span>
+              </button>
+              <button class="tab-button" data-filter="senior-sci">
+                <span data-i18n="seniorSci">Senior Science (11–12)</span>
+              </button>
+              <button class="tab-button" data-filter="senior-com">
+                <span data-i18n="seniorCom">Senior Commerce (11–12)</span>
+              </button>
+            </div>
+
+            <div class="teacher-grid" id="faculty-grid">
+              <article
+                class="teacher-card reveal-up delay-1"
+                data-scroll
+                data-scroll-class="in"
+                data-scroll-repeat="true"
+                data-group="secondary"
+              >
+                <img
+                  class="teacher-photo"
+                  src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?q=80&w=400&auto=format&fit=crop"
+                  alt="Ms. Priya Sharma"
+                />
+                <div class="teacher-info">
+                  <h3>Ms. Priya Sharma</h3>
+                  <p class="subject">Mathematics</p>
+                  <p class="meta-line">
+                    <i class="fa-solid fa-user-graduate" aria-hidden="true"></i>
+                    M.Sc. (Mathematics), B.Ed.
+                  </p>
+                  <p class="meta-line">
+                    <i class="fa-solid fa-briefcase" aria-hidden="true"></i> 8+
+                    years experience
+                  </p>
+                  <a href="mailto:priya.sharma@aastha.edu" class="contact"
+                    ><i class="fa-solid fa-envelope"></i> Contact</a
+                  >
+                </div>
+              </article>
+              <article
+                class="teacher-card reveal-up delay-2"
+                data-scroll
+                data-scroll-class="in"
+                data-scroll-repeat="true"
+                data-group="senior-sci"
+              >
+                <img
+                  class="teacher-photo"
+                  src="https://images.unsplash.com/photo-1544723795-3fb6469f5b39?q=80&w=400&auto=format&fit=crop"
+                  alt="Mr. Rahul Verma"
+                />
+                <div class="teacher-info">
+                  <h3>Mr. Rahul Verma</h3>
+                  <p class="subject">Science</p>
+                  <p class="meta-line">
+                    <i class="fa-solid fa-user-graduate" aria-hidden="true"></i>
+                    M.Sc. (Physics), B.Ed.
+                  </p>
+                  <p class="meta-line">
+                    <i class="fa-solid fa-briefcase" aria-hidden="true"></i> 10+
+                    years experience
+                  </p>
+                  <a href="mailto:rahul.verma@aastha.edu" class="contact"
+                    ><i class="fa-solid fa-envelope"></i> Contact</a
+                  >
+                </div>
+              </article>
+              <article
+                class="teacher-card reveal-up delay-3"
+                data-scroll
+                data-scroll-class="in"
+                data-scroll-repeat="true"
+                data-group="middle"
+              >
+                <img
+                  class="teacher-photo"
+                  src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=400&auto=format&fit=crop"
+                  alt="Mrs. Ananya Iyer"
+                />
+                <div class="teacher-info">
+                  <h3>Mrs. Ananya Iyer</h3>
+                  <p class="subject">English</p>
+                  <p class="meta-line">
+                    <i class="fa-solid fa-user-graduate" aria-hidden="true"></i>
+                    M.A. (English), B.Ed.
+                  </p>
+                  <p class="meta-line">
+                    <i class="fa-solid fa-briefcase" aria-hidden="true"></i> 7+
+                    years experience
+                  </p>
+                  <a href="mailto:ananya.iyer@aastha.edu" class="contact"
+                    ><i class="fa-solid fa-envelope"></i> Contact</a
+                  >
+                </div>
+              </article>
+              <article
+                class="teacher-card reveal-up delay-4"
+                data-scroll
+                data-scroll-class="in"
+                data-scroll-repeat="true"
+                data-group="primary"
+              >
+                <img
+                  class="teacher-photo"
+                  src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=400&auto=format&fit=crop"
+                  alt="Mr. Karan Singh"
+                />
+                <div class="teacher-info">
+                  <h3>Mr. Karan Singh</h3>
+                  <p class="subject">Social Science</p>
+                  <p class="meta-line">
+                    <i class="fa-solid fa-user-graduate" aria-hidden="true"></i>
+                    M.A. (History), B.Ed.
+                  </p>
+                  <p class="meta-line">
+                    <i class="fa-solid fa-briefcase" aria-hidden="true"></i> 9+
+                    years experience
+                  </p>
+                  <a href="mailto:karan.singh@aastha.edu" class="contact"
+                    ><i class="fa-solid fa-envelope"></i> Contact</a
+                  >
+                </div>
+              </article>
+              <article
+                class="teacher-card reveal-up"
+                data-scroll
+                data-scroll-class="in"
+                data-scroll-repeat="true"
+                data-group="senior-com"
+              >
+                <img
+                  class="teacher-photo"
+                  src="https://images.unsplash.com/photo-1556157382-97eda2d62296?q=80&w=400&auto=format&fit=crop"
+                  alt="Ms. Kavita Desai"
+                />
+                <div class="teacher-info">
+                  <h3>Ms. Kavita Desai</h3>
+                  <p class="subject">Commerce</p>
+                  <p class="meta-line">
+                    <i class="fa-solid fa-user-graduate" aria-hidden="true"></i>
+                    M.Com., B.Ed.
+                  </p>
+                  <p class="meta-line">
+                    <i class="fa-solid fa-briefcase" aria-hidden="true"></i> 6+
+                    years experience
+                  </p>
+                  <a href="mailto:kavita.desai@aastha.edu" class="contact"
+                    ><i class="fa-solid fa-envelope"></i> Contact</a
+                  >
+                </div>
+              </article>
+              <article
+                class="teacher-card reveal-up"
+                data-scroll
+                data-scroll-class="in"
+                data-scroll-repeat="true"
+                data-group="secondary"
+              >
+                <img
+                  class="teacher-photo"
+                  src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?q=80&w=400&auto=format&fit=crop"
+                  alt="Mr. Amit Patel"
+                />
+                <div class="teacher-info">
+                  <h3>Mr. Amit Patel</h3>
+                  <p class="subject">Information Technology</p>
+                  <p class="meta-line">
+                    <i class="fa-solid fa-user-graduate" aria-hidden="true"></i>
+                    B.Tech. (Computer Science)
+                  </p>
+                  <p class="meta-line">
+                    <i class="fa-solid fa-briefcase" aria-hidden="true"></i> 5+
+                    years experience
+                  </p>
+                  <a href="mailto:amit.patel@aastha.edu" class="contact"
+                    ><i class="fa-solid fa-envelope"></i> Contact</a
+                  >
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <!-- Timetable -->
+        <section id="timetable" class="panel alt" data-scroll-section>
+          <div class="container">
+            <h2
+              class="reveal-up"
+              data-scroll
+              data-scroll-class="in"
+              data-scroll-repeat="true"
+            >
+              <span data-i18n="timetable">Timetable</span>
+            </h2>
+            <!-- Timetable filter -->
+            <div
+              class="filter-bar reveal-up delay-1"
+              data-scroll
+              data-scroll-class="in"
+              data-scroll-repeat="true"
+            >
+              <button class="tab-button is-active" data-filter="g1">
+                <span data-i18n="grade1">Grade 1</span>
+              </button>
+              <button class="tab-button" data-filter="g5">
+                <span data-i18n="grade5">Grade 5</span>
+              </button>
+              <button class="tab-button" data-filter="g10">
+                <span data-i18n="grade10">Grade 10</span>
+              </button>
+            </div>
+
+            <!-- Mobile downloads (shown only on small screens) -->
+            <div
+              class="mobile-downloads reveal-up delay-1"
+              data-scroll
+              data-scroll-class="in"
+              data-scroll-repeat="true"
+            >
+              <p
+                class="muted mobile-downloads-intro"
+                data-i18n="downloadTimetablesMobile"
+              >
+                Download timetables on mobile:
+              </p>
+              <a
+                class="cta ghost"
+                href="assets/timetables/grade-1.pdf"
+                download
+              >
+                <i class="fa-solid fa-download"></i>
+                <span data-i18n="grade1Timetable">Grade 1 Timetable</span>
+              </a>
+              <a
+                class="cta ghost"
+                href="assets/timetables/grade-5.pdf"
+                download
+              >
+                <i class="fa-solid fa-download"></i>
+                <span data-i18n="grade5Timetable">Grade 5 Timetable</span>
+              </a>
+              <a
+                class="cta ghost"
+                href="assets/timetables/grade-10.pdf"
+                download
+              >
+                <i class="fa-solid fa-download"></i>
+                <span data-i18n="grade10Timetable">Grade 10 Timetable</span>
+              </a>
+            </div>
+
+            <!-- Timetable sets -->
+            <div id="timetable-sets">
+              <!-- Grade 1 -->
+              <div class="timetable-set is-active" data-group="g1">
+                <div
+                  class="table-responsive reveal-up delay-1"
+                  data-scroll
+                  data-scroll-class="in"
+                  data-scroll-repeat="true"
+                >
+                  <table class="timetable" aria-label="Grade 1 Timetable">
+                    <thead>
+                      <tr>
+                        <th data-i18n="time">Time</th>
+                        <th data-i18n="mon">Mon</th>
+                        <th data-i18n="tue">Tue</th>
+                        <th data-i18n="wed">Wed</th>
+                        <th data-i18n="thu">Thu</th>
+                        <th data-i18n="fri">Fri</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>08:30 - 09:15</td>
+                        <td>English</td>
+                        <td>Maths</td>
+                        <td>EVS</td>
+                        <td>Art</td>
+                        <td>Music</td>
+                      </tr>
+                      <tr>
+                        <td>09:20 - 10:05</td>
+                        <td>Maths</td>
+                        <td>English</td>
+                        <td>EVS</td>
+                        <td>Games</td>
+                        <td>Craft</td>
+                      </tr>
+                      <tr>
+                        <td>10:10 - 10:55</td>
+                        <td>EVS</td>
+                        <td>Art</td>
+                        <td>Maths</td>
+                        <td>English</td>
+                        <td>Music</td>
+                      </tr>
+                      <tr>
+                        <td colspan="6" class="break" data-i18n="break">
+                          Break
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>11:15 - 12:00</td>
+                        <td>Computers</td>
+                        <td>EVS</td>
+                        <td>English</td>
+                        <td>Maths</td>
+                        <td>Games</td>
+                      </tr>
+                      <tr>
+                        <td>12:05 - 12:50</td>
+                        <td>Games</td>
+                        <td>Computers</td>
+                        <td>Art</td>
+                        <td>EVS</td>
+                        <td>English</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+              <!-- Grade 5 -->
+              <div class="timetable-set" data-group="g5">
+                <div
+                  class="table-responsive reveal-up delay-1"
+                  data-scroll
+                  data-scroll-class="in"
+                  data-scroll-repeat="true"
+                >
+                  <table class="timetable" aria-label="Grade 5 Timetable">
+                    <thead>
+                      <tr>
+                        <th data-i18n="time">Time</th>
+                        <th data-i18n="mon">Mon</th>
+                        <th data-i18n="tue">Tue</th>
+                        <th data-i18n="wed">Wed</th>
+                        <th data-i18n="thu">Thu</th>
+                        <th data-i18n="fri">Fri</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>08:30 - 09:15</td>
+                        <td>English</td>
+                        <td>Maths</td>
+                        <td>Science</td>
+                        <td>Social</td>
+                        <td>Computers</td>
+                      </tr>
+                      <tr>
+                        <td>09:20 - 10:05</td>
+                        <td>Maths</td>
+                        <td>English</td>
+                        <td>Science</td>
+                        <td>Art</td>
+                        <td>Sports</td>
+                      </tr>
+                      <tr>
+                        <td>10:10 - 10:55</td>
+                        <td>Science</td>
+                        <td>Social</td>
+                        <td>Maths</td>
+                        <td>English</td>
+                        <td>Music</td>
+                      </tr>
+                      <tr>
+                        <td colspan="6" class="break" data-i18n="break">
+                          Break
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>11:15 - 12:00</td>
+                        <td>Computers</td>
+                        <td>Science</td>
+                        <td>English</td>
+                        <td>Maths</td>
+                        <td>Social</td>
+                      </tr>
+                      <tr>
+                        <td>12:05 - 12:50</td>
+                        <td>Sports</td>
+                        <td>Computers</td>
+                        <td>Art</td>
+                        <td>Science</td>
+                        <td>English</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+              <!-- Grade 10 -->
+              <div class="timetable-set" data-group="g10">
+                <div
+                  class="table-responsive reveal-up delay-1"
+                  data-scroll
+                  data-scroll-class="in"
+                  data-scroll-repeat="true"
+                >
+                  <table class="timetable" aria-label="Grade 10 Timetable">
+                    <thead>
+                      <tr>
+                        <th data-i18n="time">Time</th>
+                        <th data-i18n="mon">Mon</th>
+                        <th data-i18n="tue">Tue</th>
+                        <th data-i18n="wed">Wed</th>
+                        <th data-i18n="thu">Thu</th>
+                        <th data-i18n="fri">Fri</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>08:30 - 09:15</td>
+                        <td>Mathematics</td>
+                        <td>English</td>
+                        <td>Physics</td>
+                        <td>Chemistry</td>
+                        <td>Biology</td>
+                      </tr>
+                      <tr>
+                        <td>09:20 - 10:05</td>
+                        <td>English</td>
+                        <td>Mathematics</td>
+                        <td>Chemistry</td>
+                        <td>Biology</td>
+                        <td>Social</td>
+                      </tr>
+                      <tr>
+                        <td>10:10 - 10:55</td>
+                        <td>Physics</td>
+                        <td>Social</td>
+                        <td>Mathematics</td>
+                        <td>English</td>
+                        <td>Computers</td>
+                      </tr>
+                      <tr>
+                        <td colspan="6" class="break" data-i18n="break">
+                          Break
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>11:15 - 12:00</td>
+                        <td>Computers</td>
+                        <td>Physics</td>
+                        <td>English</td>
+                        <td>Mathematics</td>
+                        <td>Social</td>
+                      </tr>
+                      <tr>
+                        <td>12:05 - 12:50</td>
+                        <td>Sports</td>
+                        <td>Computers</td>
+                        <td>Art</td>
+                        <td>Chemistry</td>
+                        <td>English</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Admissions -->
+        <section id="admissions" class="panel alt" data-scroll-section>
+          <div class="container admissions">
+            <div class="admissions-head">
+              <div>
+                <h2
+                  class="reveal-up"
+                  data-scroll
+                  data-scroll-class="in"
+                  data-scroll-repeat="true"
+                >
+                  <span data-i18n="admissions">Admissions</span>
+                </h2>
+                <p
+                  class="reveal-up delay-1"
+                  data-scroll
+                  data-scroll-class="in"
+                  data-scroll-repeat="true"
+                  data-i18n="admissionsIntro"
+                >
+                  Follow the steps below to apply for the academic year 2025–26.
+                </p>
+              </div>
+              <a
+                class="cta ghost reveal-up delay-1"
+                data-scroll
+                data-scroll-class="in"
+                data-scroll-repeat="true"
+                href="https://drive.google.com/file/d/1t96YywJIhNPXpFtkQIuE4Gq_il8YoAQU/view?usp=sharing.pdf"
+                download
+              >
+                <i class="fa-solid fa-download" aria-hidden="true"></i>
+                <span data-i18n="downloadProspectus">Download Prospectus</span>
+              </a>
+            </div>
+
+            <!-- Step-by-step process -->
+            <div
+              class="steps-grid"
+              data-scroll
+              data-scroll-class="in"
+              data-scroll-repeat="true"
+            >
+              <div class="step-card reveal-up">
+                <div class="step-badge">1</div>
+                <h3 data-i18n="enquiry">Enquiry</h3>
+                <p data-i18n="enquiryText">
+                  Submit an enquiry or visit our campus for a guided tour.
+                </p>
+              </div>
+              <div class="step-card reveal-up delay-1">
+                <div class="step-badge">2</div>
+                <h3 data-i18n="application">Application</h3>
+                <p data-i18n="applicationText">
+                  Fill the online admission form and attach required documents.
+                </p>
+              </div>
+              <div class="step-card reveal-up delay-2">
+                <div class="step-badge">3</div>
+                <h3 data-i18n="assessment">Assessment</h3>
+                <p data-i18n="assessmentText">
+                  Attend a short interaction/assessment as applicable.
+                </p>
+              </div>
+              <div class="step-card reveal-up delay-3">
+                <div class="step-badge">4</div>
+                <h3 data-i18n="confirmation">Confirmation</h3>
+                <p data-i18n="confirmationText">
+                  On selection, confirm admission by paying the fees.
+                </p>
+              </div>
+            </div>
+
+            <!-- Fee structure -->
+            <div class="fees-block">
+              <h3
+                class="reveal-up"
+                data-scroll
+                data-scroll-class="in"
+                data-scroll-repeat="true"
+              >
+                <span data-i18n="annualFeeStructure">Annual Fee Structure</span>
+              </h3>
+              <div
+                class="table-responsive reveal-up delay-1"
+                data-scroll
+                data-scroll-class="in"
+                data-scroll-repeat="true"
+              >
+                <table class="annual-fees" aria-label="Annual Fee Structure">
+                  <thead>
+                    <tr>
+                      <th data-i18n="class">Class</th>
+                      <th data-i18n="annualFees">Annual Fees (₹)</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td data-i18n="std1to10">Standard 1–10</td>
+                      <td>25,000</td>
+                    </tr>
+                    <tr>
+                      <td data-i18n="std11to12Com">Standard 11–12 Commerce</td>
+                      <td>35,000</td>
+                    </tr>
+                    <tr>
+                      <td data-i18n="std11to12Sci">Standard 11–12 Science</td>
+                      <td>40,000</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <!-- FAQ accordion -->
+            <div class="faq-block">
+              <h3
+                class="reveal-up"
+                data-scroll
+                data-scroll-class="in"
+                data-scroll-repeat="true"
+              >
+                <span data-i18n="faqTitle">Frequently Asked Questions</span>
+              </h3>
+              <div
+                class="faq"
+                data-scroll
+                data-scroll-class="in"
+                data-scroll-repeat="true"
+              >
+                <div class="faq-item">
+                  <button
+                    class="faq-q"
+                    aria-expanded="false"
+                    aria-controls="faq1-content"
+                    id="faq1"
+                  >
+                    <span data-i18n="faq1q"
+                      >When was Astha School established in Rajkot?</span
+                    >
+                  </button>
+                  <div
+                    class="faq-a"
+                    id="faq1-content"
+                    role="region"
+                    aria-labelledby="faq1"
+                    hidden
+                  >
+                    <p data-i18n="faq1a">
+                      Astha School has been educating children since 2013 and
+                      has gained a good reputation in the education industry.
+                    </p>
+                  </div>
+                </div>
+                <div class="faq-item">
+                  <button
+                    class="faq-q"
+                    aria-expanded="false"
+                    aria-controls="faq2-content"
+                    id="faq2"
+                  >
+                    <span data-i18n="faq2q"
+                      >What are the different education boards in India?</span
+                    >
+                  </button>
+                  <div
+                    class="faq-a"
+                    id="faq2-content"
+                    role="region"
+                    aria-labelledby="faq2"
+                    hidden
+                  >
+                    <p data-i18n="faq2a">
+                      The different education boards of schools are CBSE, ICSE,
+                      IGCSE, IB, SSC, etc.
+                    </p>
+                  </div>
+                </div>
+                <div class="faq-item">
+                  <button
+                    class="faq-q"
+                    aria-expanded="false"
+                    aria-controls="faq3-content"
+                    id="faq3"
+                  >
+                    <span data-i18n="faq3q"
+                      >Do Astha School offer pick-up and drop services?</span
+                    >
+                  </button>
+                  <div
+                    class="faq-a"
+                    id="faq3-content"
+                    role="region"
+                    aria-labelledby="faq3"
+                    hidden
+                  >
+                    <p data-i18n="faq3a">
+                      Most schools offer bus services for students who stay far
+                      away. We suggest you get in touch with Astha School for
+                      more details.
+                    </p>
+                  </div>
+                </div>
+                <div class="faq-item">
+                  <button
+                    class="faq-q"
+                    aria-expanded="false"
+                    aria-controls="faq4-content"
+                    id="faq4"
+                  >
+                    <span data-i18n="faq4q"
+                      >How can I enquire about the admission process at Astha
+                      School?</span
+                    >
+                  </button>
+                  <div
+                    class="faq-a"
+                    id="faq4-content"
+                    role="region"
+                    aria-labelledby="faq4"
+                    hidden
+                  >
+                    <p data-i18n="faq4a">
+                      To enquire about the admission process at Astha School,
+                      you can call the number provided or visit the campus
+                      personally.
+                    </p>
+                  </div>
+                </div>
+                <div class="faq-item">
+                  <button
+                    class="faq-q"
+                    aria-expanded="false"
+                    aria-controls="faq5-content"
+                    id="faq5"
+                  >
+                    <span data-i18n="faq5q"
+                      >What are the other subjects taught at Astha School?</span
+                    >
+                  </button>
+                  <div
+                    class="faq-a"
+                    id="faq5-content"
+                    role="region"
+                    aria-labelledby="faq5"
+                    hidden
+                  >
+                    <p data-i18n="faq5a">
+                      Astha School teaches subjects such as Maths, Science,
+                      History, Hindi, etc. However, subjects may vary according
+                      to the school board. Please connect with Astha School for
+                      detailed information.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section id="testimonials" class="panel" data-scroll-section>
+          <div class="container">
+            <h2
+              class="reveal-up"
+              data-scroll
+              data-scroll-class="in"
+              data-scroll-repeat="true"
+            >
+              <span data-i18n="testimonials">Testimonials</span>
+            </h2>
+            <div
+              class="swiper testimonial-swiper reveal-up delay-1"
+              data-scroll
+              data-scroll-class="in"
+              data-scroll-repeat="true"
+            >
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <article class="testimonial-card">
+                    <img
+                      class="testimonial-photo"
+                      src="https://images.unsplash.com/photo-1527980965255-d3b416303d12?q=80&w=300&auto=format&fit=crop"
+                      alt="Aarav Gupta"
+                    />
+                    <div class="testimonial-info">
+                      <h3>Aarav Gupta</h3>
+                      <p class="role">Student, Grade 10</p>
+                      <div class="stars" aria-label="5 star rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                      <p class="feedback">
+                        Teachers here make learning exciting. The labs and clubs
+                        helped me discover my interests.
+                      </p>
+                    </div>
+                  </article>
+                </div>
+                <div class="swiper-slide">
+                  <article class="testimonial-card">
+                    <img
+                      class="testimonial-photo"
+                      src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=300&auto=format&fit=crop"
+                      alt="Neha Rao"
+                    />
+                    <div class="testimonial-info">
+                      <h3>Neha Rao</h3>
+                      <p class="role">Parent</p>
+                      <div class="stars" aria-label="5 star rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                      <p class="feedback">
+                        Caring teachers and a strong value system. My child
+                        looks forward to school every day.
+                      </p>
+                    </div>
+                  </article>
+                </div>
+                <div class="swiper-slide">
+                  <article class="testimonial-card">
+                    <img
+                      class="testimonial-photo"
+                      src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?q=80&w=300&auto=format&fit=crop"
+                      alt="Rohan Mehta"
+                    />
+                    <div class="testimonial-info">
+                      <h3>Rohan Mehta</h3>
+                      <p class="role">Alumnus, Class of 2018</p>
+                      <div class="stars" aria-label="4 star rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                      <p class="feedback">
+                        The foundation I received at Aastha helped me excel in
+                        college and beyond.
+                      </p>
+                    </div>
+                  </article>
+                </div>
+              </div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Gallery -->
+        <section id="gallery" class="panel" data-scroll-section>
+          <div class="container">
+            <h2
+              class="reveal-up"
+              data-scroll
+              data-scroll-class="in"
+              data-scroll-repeat="true"
+            >
+              <span data-i18n="gallery">Gallery</span>
+            </h2>
+            <div class="masonry" aria-label="Photo gallery">
+              <!-- 4 vertical images -->
+              <a
+                href="#"
+                class="masonry-item"
+                data-type="image"
+                data-src="https://images.jdmagicbox.com/comp/rajkot/j9/0281px281.x281.170423180507.t1j9/catalogue/astha-school-jasdan-rajkot-english-medium-schools-fl8kirhtws.jpg"
+                data-title="trustee speaking to students"
+                aria-label="Open image: trustee speaking to students"
+              >
+                <figure class="masonry-card portrait">
+                  <img
+                    src="https://images.jdmagicbox.com/comp/rajkot/j9/0281px281.x281.170423180507.t1j9/catalogue/astha-school-jasdan-rajkot-english-medium-schools-fl8kirhtws.jpg"
+                    alt="trustee speaking to students"
+                    loading="lazy"
+                  />
+                </figure>
+              </a>
+              <a
+                href="#"
+                class="masonry-item"
+                data-type="image"
+                data-src="Assets\computer.jpeg"
+                data-title="computer lab"
+                aria-label="Open image: computer lab"
+              >
+                <figure class="masonry-card portrait">
+                  <img
+                    src="Assets\computer.jpeg"
+                    alt="Student portrait smiling (vertical)"
+                    loading="lazy"
+                  />
+                </figure>
+              </a>
+              <a
+                href="#"
+                class="masonry-item"
+                data-type="image"
+                data-src="Assets\birthday.jpeg"
+                data-title="Students birthday celebration"
+                aria-label="Open image: Students birthday celebration"
+              >
+                <figure class="masonry-card portrait">
+                  <img
+                    src="Assets\birthday.jpeg"
+                    alt="Students on stage performing (vertical)"
+                    loading="lazy"
+                  />
+                </figure>
+              </a>
+              <a
+                href="#"
+                class="masonry-item"
+                data-type="image"
+                data-src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=1600&auto=format&fit=crop"
+                data-title="Campus Portrait (Vertical)"
+                aria-label="Open image: Campus Portrait"
+              >
+                <figure class="masonry-card portrait">
+                  <img
+                    src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=700&auto=format&fit=crop"
+                    alt="Portrait near campus greenery (vertical)"
+                    loading="lazy"
+                  />
+                </figure>
+              </a>
+
+              <!-- 8 horizontal images -->
+              <a
+                href="#"
+                class="masonry-item"
+                data-type="image"
+                data-src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=1600&auto=format&fit=crop"
+                data-title="Campus Exterior (Horizontal)"
+                aria-label="Open image: Campus Exterior"
+              >
+                <figure class="masonry-card landscape">
+                  <img
+                    src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=900&auto=format&fit=crop"
+                    alt="Aastha School campus exterior (horizontal)"
+                    loading="lazy"
+                  />
+                </figure>
+              </a>
+              <a
+                href="#"
+                class="masonry-item"
+                data-type="image"
+                data-src="https://content.jdmagicbox.com/comp/rajkot/j9/0281px281.x281.170423180507.t1j9/catalogue/astha-school-jasdan-rajkot-english-medium-schools-8xa8zh8u2e.jpg?imwidth=463.3333333333333"
+                data-title="Classroom Activities"
+                aria-label="Open image: Classroom Activities"
+              >
+                <figure class="masonry-card landscape">
+                  <img
+                    src="https://content.jdmagicbox.com/comp/rajkot/j9/0281px281.x281.170423180507.t1j9/catalogue/astha-school-jasdan-rajkot-english-medium-schools-8xa8zh8u2e.jpg?imwidth=463.3333333333333"
+                    alt="Classroom activities"
+                    loading="lazy"
+                  />
+                </figure>
+              </a>
+              <a
+                href="#"
+                class="masonry-item"
+                data-type="image"
+                data-src="https://images.jdmagicbox.com/comp/rajkot/j9/0281px281.x281.170423180507.t1j9/catalogue/astha-school-jasdan-rajkot-english-medium-schools-0v98hioqo5.jpg"
+                data-title="Sports Day (Horizontal)"
+                aria-label="Open image: Sports Day"
+              >
+                <figure class="masonry-card landscape">
+                  <img
+                    src="https://images.jdmagicbox.com/comp/rajkot/j9/0281px281.x281.170423180507.t1j9/catalogue/astha-school-jasdan-rajkot-english-medium-schools-0v98hioqo5.jpg"
+                    alt="Sports Day activities"
+                    loading="lazy"
+                  />
+                </figure>
+              </a>
+              <a
+                href="#"
+                class="masonry-item"
+                data-type="image"
+                data-src="https://images.unsplash.com/photo-1559757175-08c6d5e8d93d?q=80&w=1600&auto=format&fit=crop"
+                data-title="Science Lab (Horizontal)"
+                aria-label="Open image: Science Lab"
+              >
+                <figure class="masonry-card landscape">
+                  <img
+                    src="https://images.unsplash.com/photo-1559757175-08c6d5e8d93d?q=80&w=900&auto=format&fit=crop"
+                    alt="Students working in science lab (horizontal)"
+                    loading="lazy"
+                  />
+                </figure>
+              </a>
+              <a
+                href="#"
+                class="masonry-item"
+                data-type="image"
+                data-src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiD6SwaVU-ntVx2chX1hmwFcugrTLYRzpXQg&s"
+                data-title="faculty meeting"
+                aria-label="Open image: faculty meeting"
+              >
+                <figure class="masonry-card landscape">
+                  <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiD6SwaVU-ntVx2chX1hmwFcugrTLYRzpXQg&s"
+                    alt="faculty meeting"
+                    loading="lazy"
+                  />
+                </figure>
+              </a>
+              <a
+                href="#"
+                class="masonry-item"
+                data-type="image"
+                data-src="https://images.unsplash.com/photo-1527980965255-d3b416303d12?q=80&w=1600&auto=format&fit=crop"
+                data-title="Student Smile (Horizontal)"
+                aria-label="Open image: Student Smile"
+              >
+                <figure class="masonry-card landscape">
+                  <img
+                    src="https://images.unsplash.com/photo-1527980965255-d3b416303d12?q=80&w=900&auto=format&fit=crop"
+                    alt="Smiling student close-up (horizontal)"
+                    loading="lazy"
+                  />
+                </figure>
+              </a>
+              <a
+                href="#"
+                class="masonry-item"
+                data-type="image"
+                data-src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?q=80&w=1600&auto=format&fit=crop"
+                data-title="Alumni Meetup (Horizontal)"
+                aria-label="Open image: Alumni Meetup"
+              >
+                <figure class="masonry-card landscape">
+                  <img
+                    src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?q=80&w=900&auto=format&fit=crop"
+                    alt="Alumni meetup group (horizontal)"
+                    loading="lazy"
+                  />
+                </figure>
+              </a>
+              <a
+                href="#"
+                class="masonry-item"
+                data-type="image"
+                data-src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=1600&auto=format&fit=crop"
+                data-title="Library Aisle (Horizontal)"
+                aria-label="Open image: Library Aisle"
+              >
+                <figure class="masonry-card landscape">
+                  <img
+                    src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=900&auto=format&fit=crop"
+                    alt="Library aisle with books (horizontal)"
+                    loading="lazy"
+                  />
+                </figure>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <!-- Events & Notices -->
+        <section id="events" class="panel alt" data-scroll-section>
+          <div class="container">
+            <h2
+              class="reveal-up"
+              data-scroll
+              data-scroll-class="in"
+              data-scroll-repeat="true"
+            >
+              <span data-i18n="events">Events & Notices</span>
+            </h2>
+            <div
+              class="tabs reveal-up delay-1"
+              data-scroll
+              data-scroll-class="in"
+              data-scroll-repeat="true"
+            >
+              <div
+                class="tab-list small"
+                role="tablist"
+                aria-label="Events and notices"
+              >
+                <button
+                  role="tab"
+                  aria-selected="true"
+                  aria-controls="tab-events"
+                  id="tab-btn-events"
+                  class="tab-button"
+                >
+                  <span data-i18n="eventsTab">Events</span>
+                </button>
+                <button
+                  role="tab"
+                  aria-selected="false"
+                  aria-controls="tab-notices"
+                  id="tab-btn-notices"
+                  class="tab-button"
+                >
+                  <span data-i18n="noticesTab">Notices</span>
+                </button>
+              </div>
+
+              <!-- Events grid -->
+              <div
+                id="tab-events"
+                role="tabpanel"
+                aria-labelledby="tab-btn-events"
+                class="tab-panel"
+              >
+                <div class="events-grid">
+                  <article
+                    class="event-card reveal-up"
+                    data-scroll
+                    data-scroll-class="in"
+                    data-scroll-repeat="true"
+                    data-title="Science Fair 2025"
+                    data-img1="https://images.unsplash.com/photo-1559757175-08c6d5e8d93d?q=80&w=1000&auto=format&fit=crop"
+                    data-img2="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?q=80&w=1000&auto=format&fit=crop"
+                    data-img3="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1000&auto=format&fit=crop"
+                    data-p1="Explore innovative student projects across Physics, Chemistry, Biology, and Robotics with hands‑on demonstrations."
+                    data-p2="Parents and visitors are welcome to interact with teams and vote for the People’s Choice Award."
+                  >
+                    <div class="event-photo">
+                      <img
+                        src="Assets\science lab.jpeg"
+                        alt="Science Fair 2025"
+                      />
+                      <div class="date-badge">
+                        <span class="month">SEP</span
+                        ><span class="day">21</span>
+                      </div>
+                    </div>
+                    <div class="event-info">
+                      <h3>Science Fair 2025</h3>
+                      <p class="meta">
+                        <i class="fa-regular fa-clock"></i> 10:00 AM •
+                        Auditorium
+                      </p>
+                      <a href="#" class="event-cta" role="button">
+                        <span data-i18n="details">Details</span>
+                        <i
+                          class="fa-solid fa-arrow-right"
+                          aria-hidden="true"
+                        ></i>
+                      </a>
+                    </div>
+                  </article>
+                  <article
+                    class="event-card reveal-up delay-1"
+                    data-title="Annual Sports Day"
+                    data-img1="https://images.unsplash.com/photo-1521417531039-6741b1a3b5df?q=80&w=1000&auto=format&fit=crop"
+                    data-img2="https://images.unsplash.com/photo-1558611848-73f7eb4001a1?q=80&w=1000&auto=format&fit=crop"
+                    data-img3="https://images.unsplash.com/photo-1517649763962-0c623066013b?q=80&w=1000&auto=format&fit=crop"
+                    data-p1="Cheer for your house teams in track & field, relays, and fun games aimed at building teamwork and sportsmanship."
+                    data-p2="Winners will be felicitated during the closing ceremony; refreshments will be available at the stalls."
+                    data-scroll
+                    data-scroll-class="in"
+                    data-scroll-repeat="true"
+                  >
+                    <div class="event-photo">
+                      <img
+                        src="https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?q=80&w=800&auto=format&fit=crop"
+                        alt="Sports Day"
+                      />
+                      <div class="date-badge">
+                        <span class="month">OCT</span
+                        ><span class="day">05</span>
+                      </div>
+                    </div>
+                    <div class="event-info">
+                      <h3>Annual Sports Day</h3>
+                      <p class="meta">
+                        <i class="fa-regular fa-clock"></i> 08:30 AM • Sports
+                        Ground
+                      </p>
+                      <a href="#" class="event-cta" role="button">
+                        <span data-i18n="details">Details</span>
+                        <i
+                          class="fa-solid fa-arrow-right"
+                          aria-hidden="true"
+                        ></i>
+                      </a>
+                    </div>
+                  </article>
+                  <article
+                    class="event-card reveal-up delay-2"
+                    data-title="Cultural Fest"
+                    data-img1="https://images.unsplash.com/photo-1510936111840-65e151ad71bb?q=80&w=1000&auto=format&fit=crop"
+                    data-img2="https://images.unsplash.com/photo-1520974735194-5f8f8b9f0f9d?q=80&w=1000&auto=format&fit=crop"
+                    data-img3="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1000&auto=format&fit=crop"
+                    data-p1="A vibrant evening of music, dance, and theatre showcasing the incredible talent of our students."
+                    data-p2="Food stalls and exhibitions by various clubs will be open throughout the event."
+                    data-scroll
+                    data-scroll-class="in"
+                    data-scroll-repeat="true"
+                  >
+                    <div class="event-photo">
+                      <img
+                        src="https://images.unsplash.com/photo-1510936111840-65e151ad71bb?q=80&w=800&auto=format&fit=crop"
+                        alt="Cultural Fest"
+                      />
+                      <div class="date-badge">
+                        <span class="month">NOV</span
+                        ><span class="day">18</span>
+                      </div>
+                    </div>
+                    <div class="event-info">
+                      <h3>Cultural Fest</h3>
+                      <p class="meta">
+                        <i class="fa-regular fa-clock"></i> 04:00 PM • Main Hall
+                      </p>
+                      <a href="#" class="event-cta" role="button">
+                        <span data-i18n="details">Details</span>
+                        <i
+                          class="fa-solid fa-arrow-right"
+                          aria-hidden="true"
+                        ></i>
+                      </a>
+                    </div>
+                  </article>
+                </div>
+              </div>
+
+              <!-- Notices list -->
+              <div
+                id="tab-notices"
+                role="tabpanel"
+                aria-labelledby="tab-btn-notices"
+                class="tab-panel"
+                hidden
+              >
+                <ul class="notices-list">
+                  <li
+                    class="notice-item reveal-up"
+                    data-scroll
+                    data-scroll-class="in"
+                    data-scroll-repeat="true"
+                  >
+                    <div class="notice-text">
+                      <h4>PTM Schedule - September</h4>
+                      <p class="meta">
+                        <span data-i18n="posted">Posted</span> 12 Sep 2025
+                      </p>
+                    </div>
+                    <div class="notice-actions">
+                      <a
+                        href="assets/notices/PTM-Sept.pdf"
+                        download
+                        class="download-link"
+                        ><i class="fa-solid fa-download"></i> Download</a
+                      >
+                    </div>
+                  </li>
+                  <li
+                    class="notice-item reveal-up delay-1"
+                    data-scroll
+                    data-scroll-class="in"
+                    data-scroll-repeat="true"
+                  >
+                    <div class="notice-text">
+                      <h4>Half-Yearly Exam Timetable</h4>
+                      <p class="meta">
+                        <span data-i18n="posted">Posted</span> 02 Sep 2025
+                      </p>
+                    </div>
+                    <div class="notice-actions">
+                      <a
+                        href="assets/notices/HYE-Timetable.pdf"
+                        download
+                        class="download-link"
+                        ><i class="fa-solid fa-download"></i> Download</a
+                      >
+                    </div>
+                  </li>
+                  <li
+                    class="notice-item reveal-up delay-2"
+                    data-scroll
+                    data-scroll-class="in"
+                    data-scroll-repeat="true"
+                  >
+                    <div class="notice-text">
+                      <h4>Transport Route Update</h4>
+                      <p class="meta">
+                        <span data-i18n="posted">Posted</span> 28 Aug 2025
+                      </p>
+                    </div>
+                    <div class="notice-actions">
+                      <a
+                        href="assets/notices/Transport-Update.pdf"
+                        download
+                        class="download-link"
+                        ><i class="fa-solid fa-download"></i> Download</a
+                      >
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="panel alt" data-scroll-section>
+          <div class="container">
+            <h2
+              class="reveal-up"
+              data-scroll
+              data-scroll-class="in"
+              data-scroll-repeat="true"
+            >
+              <span data-i18n="contact">Contact Us</span>
+            </h2>
+            <div class="contact-grid">
+              <!-- Left: Google Form Link (replaces direct contact form) -->
+              <div
+                class="contact-card reveal-up delay-1"
+                data-scroll
+                data-scroll-class="in"
+                data-scroll-repeat="true"
+              >
+                <h3 data-i18n="contactViaGoogleForm">
+                  Contact via Google Form
+                </h3>
+                <p class="muted" data-i18n="contactIntro">
+                  Have a question about admissions, academics, or visiting our
+                  campus? Please use our Google Form and our office will get
+                  back to you.
+                </p>
+                <div class="actions">
+                  <a
+                    class="cta primary"
+                    href="https://forms.gle/your-google-form-id"
+                    target="_blank"
+                    rel="noopener"
+                    data-i18n-aria-label="openGoogleFormAria"
+                  >
+                    <i class="fa-brands fa-google" aria-hidden="true"></i>
+                    <span data-i18n="openGoogleForm">Open Google Form</span>
+                  </a>
+                </div>
+                <p class="muted note" data-i18n="opensInNewTab">
+                  This opens in a new tab.
+                </p>
+              </div>
+
+              <!-- Right: Map + Details -->
+              <aside
+                class="contact-side reveal-up delay-2"
+                data-scroll
+                data-scroll-class="in"
+                data-scroll-repeat="true"
+              >
+                <div class="map-embed" aria-label="School location on map">
+                  <iframe
+                    title="Astha School Location"
+                    src="https://www.google.com/maps?q=Astha%20School%2C%20Jasdan&ll=22.0385305,71.191877&z=18&output=embed"
+                    width="600"
+                    height="450"
+                    allowfullscreen=""
+                  ></iframe>
+                </div>
+                <div class="contact-details">
+                  <h3 data-i18n="schoolOffice">School Office</h3>
+                  <ul>
+                    <li>
+                      <i class="fa-solid fa-location-dot"></i>
+                      Chitaliya Road, Jasdan-360050, Gujarat, India
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-phone"></i>
+                      <a href="tel:+919876543210">+91 98765 43210</a> /
+                      <a href="tel:+911234567890">+91 12345 67890</a>
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-envelope"></i>
+                      <a href="mailto:info@aastha.edu">info@aastha.edu</a>
+                    </li>
+                    <li>
+                      <i class="fa-regular fa-clock"></i>
+                      Mon–Fri: 8:30 AM – 4:30 PM; Sat: 9:00 AM – 1:00 PM
+                    </li>
+                  </ul>
+                </div>
+              </aside>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer" data-scroll-section>
+        <div class="container footer-top">
+          <div class="footer-brand">
+            <a href="#about" data-scroll-to class="brand">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQCukOF5nFeWVVHNQSGF7jo1SMUZ6UkASYuw&s"
+                alt="Aastha School logo"
+                class="logo"
+              />
+              <span class="brand-name"
+                ><span data-i18n="schoolName">Aastha Sankul</span></span
+              >
+            </a>
+            <p class="muted" data-i18n="tagline">
+              Nurturing minds, inspiring futures.
+            </p>
+          </div>
+          <nav class="footer-links" aria-label="Quick Links">
+            <h4 data-i18n="quickLinks">Quick Links</h4>
+            <ul>
+              <li>
+                <a href="#admissions" data-scroll-to data-i18n="admissions"
+                  >Admissions</a
+                >
+              </li>
+              <li>
+                <a href="#gallery" data-scroll-to data-i18n="gallery"
+                  >Gallery</a
+                >
+              </li>
+              <li>
+                <a href="#contact" data-scroll-to data-i18n="contact"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <div class="footer-social">
+            <h4 data-i18n="followUs">Follow Us</h4>
+            <div class="social-icons">
+              <a
+                href="https://www.facebook.com/p/Astha-School-100066550449704/"
+                target="_blank"
+                rel="noopener"
+                aria-label="Facebook"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/asthasankul/"
+                target="_blank"
+                rel="noopener"
+                aria-label="Instagram"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/asthasankul/"
+                target="_blank"
+                rel="noopener"
+                aria-label="LinkedIn"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+              <a
+                href="https://youtube.com/@asthasankuljasdan?si=fDPj3aeEuPbPVE72"
+                target="_blank"
+                rel="noopener"
+                aria-label="YouTube"
+                ><i class="fa-brands fa-youtube"></i
+              ></a>
+            </div>
+          </div>
+          <div class="footer-newsletter">
+            <h4 data-i18n="newsletter">Newsletter</h4>
+            <p class="muted" data-i18n="newsletterIntro">
+              Get updates about admissions, events, and notices.
+            </p>
+            <form id="newsletter-form" class="newsletter-form" novalidate>
+              <label
+                for="newsletter-email"
+                class="sr-only"
+                data-i18n="emailAddress"
+                >Email address</label
+              >
+              <input
+                type="email"
+                id="newsletter-email"
+                name="email"
+                placeholder="Enter your email"
+                data-i18n-placeholder="newsletterPlaceholder"
+                required
+              />
+              <button type="submit" class="cta primary">
+                <span data-i18n="subscribe">Subscribe</span>
+              </button>
+              <span class="error-text" aria-live="polite"></span>
+              <p class="form-status" role="status" aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="container">
+            <p>
+              © <span id="year"></span>
+              <span data-i18n="schoolName">Aastha Sankul</span>.
+              <span data-i18n="allRightsReserved">All rights reserved.</span>
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Lightbox Overlay -->
+    <div
+      class="lightbox-overlay"
+      role="dialog"
+      aria-modal="true"
+      aria-label="Media viewer"
+    >
+      <button class="lightbox-close" aria-label="Close viewer">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div class="lightbox-content">
+        <div class="lightbox-media"></div>
+        <div class="lightbox-title" aria-live="polite"></div>
+      </div>
+    </div>
+
+    <!-- Floating WhatsApp Button (fixed, outside scroll container) -->
+    <a
+      href="https://wa.me/919876543210?text=Hello%20Aastha%20School%2C%20I%27d%20like%20to%20know%20more."
+      class="floating-whatsapp"
+      target="_blank"
+      rel="noopener"
+      aria-label="Chat on WhatsApp"
+    >
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- Event Details Modal -->
+    <div class="event-modal-overlay" aria-hidden="true">
+      <div
+        class="event-modal"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="event-modal-title"
+      >
+        <button class="event-modal-close" aria-label="Close details">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <div class="event-modal-content">
+          <h3 id="event-modal-title">Event Title</h3>
+          <div class="event-modal-gallery">
+            <img alt="Event image 1" />
+            <img alt="Event image 2" />
+            <img alt="Event image 3" />
+          </div>
+          <div class="event-modal-text">
+            <p class="p1"></p>
+            <p class="p2"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Locomotive Scroll JS -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- App JS -->
+    <script src="js/main.js"></script>
+  </body>
+</html>

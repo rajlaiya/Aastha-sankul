@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="canonical" href="/" />
+    <title>Preloader</title>
+
+    <!-- Fonts: Poppins, Noto Sans Devanagari, Noto Sans Gujarati -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Noto+Sans+Devanagari:wght@400;700&family=Noto+Sans+Gujarati:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      html,
+      body {
+        height: 100%;
+      }
+      html.preloading,
+      body.preloading {
+        overflow: hidden !important;
+        height: 100% !important;
+      }
+
+      #preloader {
+        position: fixed;
+        inset: 0;
+        background: #ffffff;
+        display: grid;
+        place-items: center;
+        z-index: 99999;
+        transition: opacity 600ms ease, visibility 600ms ease;
+      }
+      #preloader.is-hidden {
+        opacity: 0;
+        visibility: hidden;
+      }
+
+      .preloader-text {
+        font-family: "Poppins", system-ui, -apple-system, Segoe UI, Roboto,
+          Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+        font-size: clamp(24px, 5vw, 48px);
+        font-weight: 600;
+        letter-spacing: 0.4px;
+        color: #111;
+        opacity: 0;
+        transition: opacity 900ms ease;
+        will-change: opacity;
+        text-align: center;
+        padding: 0 1rem;
+      }
+      .preloader-text.visible {
+        opacity: 1;
+      }
+    </style>
+  </head>
+  <body class="preloading">
+    <div id="preloader" role="status" aria-live="polite" aria-label="Loading">
+      <div
+        class="preloader-text"
+        id="preloader-text"
+        lang="sa"
+        aria-label="जय श्री कृष्ण"
+      >
+        जय श्री कृष्ण
+      </div>
+    </div>
+
+    <script>
+      (function () {
+        const greetings = [
+          { text: "जय श्री कृष्ण", lang: "sa" },
+          { text: "Jay Shree Krishna", lang: "en" },
+          { text: "જય શ્રી કૃષ્ણ", lang: "gu" },
+        ];
+
+        const preloader = document.getElementById("preloader");
+        const textEl = document.getElementById("preloader-text");
+        let idx = 0;
+        const showDuration = 3000;
+        const fadeDuration = 900;
+        const cycleGap = 100;
+
+        function showCurrent() {
+          const g = greetings[idx % greetings.length];
+          textEl.textContent = g.text;
+          textEl.setAttribute("lang", g.lang);
+          textEl.setAttribute("aria-label", g.text);
+          if (g.lang === "gu") {
+            textEl.style.fontFamily =
+              "'Noto Sans Gujarati', 'Poppins', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, 'Apple Color Emoji', 'Segoe UI Emoji'";
+          } else if (g.lang === "sa") {
+            textEl.style.fontFamily =
+              "'Noto Sans Devanagari', 'Poppins', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, 'Apple Color Emoji', 'Segoe UI Emoji'";
+          } else {
+            textEl.style.fontFamily =
+              "'Poppins', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, 'Apple Color Emoji', 'Segoe UI Emoji'";
+          }
+          requestAnimationFrame(() => textEl.classList.add("visible"));
+        }
+        function hideCurrent() {
+          textEl.classList.remove("visible");
+        }
+
+        showCurrent();
+        const cycleTimer = setInterval(() => {
+          hideCurrent();
+          setTimeout(() => {
+            idx = (idx + 1) % greetings.length;
+            showCurrent();
+          }, fadeDuration + cycleGap);
+        }, showDuration + fadeDuration * 2 + cycleGap);
+
+        function finish() {
+          clearInterval(cycleTimer);
+          textEl.classList.add("visible");
+          preloader.classList.add("is-hidden");
+          setTimeout(() => {
+            document.documentElement.classList.remove("preloading");
+            document.body.classList.remove("preloading");
+            preloader.remove();
+          }, 650);
+        }
+
+        window.addEventListener("load", () => setTimeout(finish, 400));
+      })();
+    </script>
+  </body>
+</html>
